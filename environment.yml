@@ -1,10 +1,29 @@
-name: cookbook-dev
+name: ocean-bgc-cookbook-dev
 channels:
   - conda-forge
 dependencies:
+  - cartopy
+  - cftime
+  - dask
+  - dask-jobqueue
+  - distributed
+  - ipykernel
+  - ipywidgets
   - jupyter-book
   - jupyterlab
   - jupyter_server
+  - matplotlib
+  - metpy
+  - nc-time-axis
+  - netcdf4
+  - numpy
+  - pandas
+  - pip
+  - pop-tools
+  - python>3.11
+  - xarray
+  - zarr
   - pip
   - pip:
+      - copernicus-marine-client
       - sphinx-pythia-theme
