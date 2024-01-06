@@ -7,3 +7,6 @@ parts:
   - caption: Introduction
     chapters:
       - file: notebooks/notebook-template
+  - caption: Analyzing ocean biogeochemistry data
+    chapters:
+      - file: notebooks/cloudonly-FigS2-Chl_Copepod_compare_x1
