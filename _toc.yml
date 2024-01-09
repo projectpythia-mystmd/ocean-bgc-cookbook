@@ -10,3 +10,4 @@ parts:
   - caption: Analyzing ocean biogeochemistry data
     chapters:
       - file: notebooks/cloudonly-FigS2-Chl_Copepod_compare_x1
+      - file: notebooks/FigS2-Chl_Copepod_compare_x1
