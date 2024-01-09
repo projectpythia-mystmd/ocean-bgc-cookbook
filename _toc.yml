@@ -4,10 +4,20 @@ parts:
   - caption: Preamble
     chapters:
       - file: notebooks/how-to-cite
-  - caption: Introduction
+  - caption: Global BGC Metrics and Tracers
     chapters:
-      - file: notebooks/notebook-template
-  - caption: Analyzing ocean biogeochemistry data
+      - file: notebooks/ocn-global-bgc-metrics
+      - file: notebooks/ocn-tracer-views
+  - caption: Carbon
+    chapters:
+      - file: notebooks/ocn-carbonfluxes
+  - caption: Phytoplankton
+    chapters:
+      - file: notebooks/ocn-phyto-biomass
+  - caption: Zooplankton
+    chapters:
+      - file: notebooks/ocn-zoo
+  - caption: Comparing to Observational Data
     chapters:
       - file: notebooks/cloudonly-FigS2-Chl_Copepod_compare_x1
       - file: notebooks/FigS2-Chl_Copepod_compare_x1
