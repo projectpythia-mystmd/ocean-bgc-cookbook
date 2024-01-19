@@ -4,10 +4,15 @@ parts:
   - caption: Preamble
     chapters:
       - file: notebooks/how-to-cite
-  - caption: Global BGC Metrics and Tracers
+  - caption: Data Access
     chapters:
-      - file: notebooks/ocn-global-bgc-metrics
-      - file: notebooks/ocn-tracer-views
+      - file: notebooks/readintutorial
+  - caption: Plotting Simple Variables
+    chapters:
+      - file: notebooks/ocn-tracer-views 
+  - caption: Nutrients and Comparison to Observations
+    chapters:
+      - file: notebooks/ocn-macronuts
   - caption: Carbon
     chapters:
       - file: notebooks/ocn-carbonfluxes
@@ -17,7 +22,7 @@ parts:
   - caption: Zooplankton
     chapters:
       - file: notebooks/ocn-zoo
-  - caption: Comparing to Observational Data
-    chapters:
-      - file: notebooks/cloudonly-FigS2-Chl_Copepod_compare_x1
-      - file: notebooks/FigS2-Chl_Copepod_compare_x1
+  # - caption: Comparing to Observational Data - fold into zooplankton notebook
+  #   chapters:
+  #     - file: notebooks/cloudonly-FigS2-Chl_Copepod_compare_x1
+  #     - file: notebooks/FigS2-Chl_Copepod_compare_x1
