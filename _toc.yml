@@ -4,23 +4,18 @@ parts:
   - caption: Preamble
     chapters:
       - file: notebooks/how-to-cite
-  - caption: Data Access
+  - caption: Intro
     chapters:
       - file: notebooks/readintutorial
-  - caption: Plotting Simple Variables
-    chapters:
       - file: notebooks/ocn-tracer-views 
-  - caption: Nutrients and Comparison to Observations
+  - caption: Nutrients
     chapters:
       - file: notebooks/ocn-macronuts
-  - caption: Carbon
-    chapters:
       - file: notebooks/ocn-carbonfluxes
-  - caption: Phytoplankton
+      - file: notebook/ocn-iron
+  - caption: Plankton
     chapters:
       - file: notebooks/ocn-phyto-biomass
-  - caption: Zooplankton
-    chapters:
       - file: notebooks/ocn-zoo
   # - caption: Comparing to Observational Data - fold into zooplankton notebook
   #   chapters:
