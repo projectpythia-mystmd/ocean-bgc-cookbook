@@ -16,7 +16,6 @@ parts:
   - caption: Plankton
     chapters:
       - file: notebooks/ocn-phyto-biomass
-      - file: notebooks/ocn-phyto-prod
       - file: notebooks/ocn-phyto-lims
       - file: notebooks/ocn-zoo
   # - caption: Comparing to Observational Data - fold into zooplankton notebook
