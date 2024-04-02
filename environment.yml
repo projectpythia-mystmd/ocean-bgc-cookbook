@@ -7,11 +7,10 @@ dependencies:
   - dask
   - dask-jobqueue
   - distributed
-  - esmpy
   - ipykernel
   - ipywidgets
   - jupyter-book
-  - jupyterlab
+  - jupyterlab>=3
   - jupyter_server
   - matplotlib
   - metpy
@@ -21,11 +20,10 @@ dependencies:
   - pandas
   - pip
   - pop-tools
-  - python>3.11
+  - python
+  - sphinx-pythia-theme
   - xarray
-  - xesmf
   - zarr
   - pip
   - pip:
-      - copernicus-marine-client
-      - sphinx-pythia-theme
+      - copernicusmarine
