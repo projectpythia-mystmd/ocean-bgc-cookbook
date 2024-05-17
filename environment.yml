@@ -7,6 +7,7 @@ dependencies:
   - dask
   - dask-jobqueue
   - distributed
+  - h5netcdf
   - ipykernel
   - ipywidgets
   - jupyter-book
@@ -26,4 +27,4 @@ dependencies:
   - zarr
   - pip
   - pip:
-      - copernicusmarine
+    - s3fs

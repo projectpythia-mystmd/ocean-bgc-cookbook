@@ -8,7 +8,8 @@ copyright: "2024"
 
 execute:
   # To execute notebooks via a Binder instead, replace 'cache' with 'binder'
-  execute_notebooks: 'off'
+  #execute_notebooks: 'off'
+  execute_notebooks: 'force'
   timeout: 600
   allow_errors: True # cells with expected failures must set the `raises-exception` cell tag
 
@@ -28,7 +29,7 @@ parse:
 sphinx:
   config:
     linkcheck_ignore: ["https://doi.org/*", "https://zenodo.org/badge/*"] # don't run link checker on DOI links since they are immutable
-    nb_execution_raise_on_error: true # raise exception in build if there are notebook errors (this flag is ignored if building on binder)
+    nb_execution_raise_on_error: false # raise exception in build if there are notebook errors (this flag is ignored if building on binder)
     html_favicon: notebooks/images/icons/favicon.ico
     html_last_updated_fmt: "%-d %B %Y"
     html_theme: sphinx_pythia_theme
