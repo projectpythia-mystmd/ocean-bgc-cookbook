@@ -10,7 +10,7 @@ execute:
   # To execute notebooks via a Binder instead, replace 'cache' with 'binder'
   #execute_notebooks: 'off'
   execute_notebooks: 'force'
-  timeout: 600
+  timeout: 6000
   allow_errors: True # cells with expected failures must set the `raises-exception` cell tag
 
 # Add a few extensions to help with parsing content
