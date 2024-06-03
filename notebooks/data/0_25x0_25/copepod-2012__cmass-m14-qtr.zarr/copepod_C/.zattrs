@@ -1,8 +1,0 @@
-{
-    "_ARRAY_DIMENSIONS": [
-        "lat",
-        "lon"
-    ],
-    "long_name": "Total Carbon Mass",
-    "units": "mg-C m$^{-3}$"
-}
