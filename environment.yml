@@ -22,6 +22,7 @@ dependencies:
   - pip
   - pop-tools
   - python
+  - rioxarray
   - sphinx-pythia-theme
   - xarray
   - zarr
