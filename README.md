@@ -10,7 +10,7 @@ This Project Pythia Cookbook covers working with various sources of ocean biogeo
 
 ## Motivation
 
-(Add a few sentences stating why this cookbook will be useful. What skills will you, "the chef", gain once you have reached the end of the cookbook?)
+You'll get a brief introduction to some metrics important to ocean biogeochemistry, from physical quantities like temperature to biological quantities like plankton biomass. You'll learn some of the data science techniques used to work with this information, and see the relationship between modeled and observational estimates.
 
 ## Authors
 
@@ -26,19 +26,19 @@ This Project Pythia Cookbook covers working with various sources of ocean biogeo
 
 ### Intro
 
-(Add content for this section, e.g., "The foundational content includes ... ")
+Learn how to read in the main CESM dataset that we'll be working with, and make a few simple maps.
 
 ### Nutrients
 
-(Add content for this section, e.g., "Example workflows include ... ")
+Explore the distribution of several nutrients in the ocean with maps and vertical profiles, and compare to observational data.
 
 ### Plankton
 
-(Add content for this section, e.g., "Example workflows include ... ")
+Explore the distribution of the phytoplankton and zooplankton functional types represented in CESM, and compare to observational data.
 
 ## Running the Notebooks
 
-You can either run the notebook using [Binder](https://binder.projectpythia.org/) or on your local machine.
+You can either run the notebooks using [Binder](https://binder.projectpythia.org/) or on your local machine.
 
 ### Running on Binder
 
