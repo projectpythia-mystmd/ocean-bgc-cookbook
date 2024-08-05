@@ -1,6 +1,11 @@
-thumbnail: thumbnail.png
+thumbnail: coccolithophore_kristen_krumhardt.png
 tags:
   domains:
-    - sampledomain
+    - oceanography
+    - climate modeling
+    
   packages:
-    - samplepackage
+    - xarray
+    - cartopy
+    - matplotlib
+    
