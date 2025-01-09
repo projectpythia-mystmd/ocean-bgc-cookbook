@@ -3,9 +3,10 @@ tags:
   domains:
     - oceanography
     - climate modeling
-    
   packages:
     - xarray
     - cartopy
     - matplotlib
+  events:
+    - Cook-off 2024
     
