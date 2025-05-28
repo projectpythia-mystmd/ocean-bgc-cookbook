@@ -1,0 +1,24 @@
+format: jb-book
+root: README
+parts:
+  - caption: Preamble
+    chapters:
+      - file: notebooks/how-to-cite
+  - caption: Intro
+    chapters:
+      - file: notebooks/readintutorial
+      - file: notebooks/ocn-tracer-views 
+  - caption: Nutrients
+    chapters:
+      - file: notebooks/ocn-macronuts
+      - file: notebooks/ocn-carbonfluxes
+      - file: notebooks/ocn-iron
+  - caption: Plankton
+    chapters:
+      - file: notebooks/ocn-phyto-biomass
+      - file: notebooks/ocn-phyto-lims
+      - file: notebooks/ocn-zoo
+  # - caption: Comparing to Observational Data - fold into zooplankton notebook
+  #   chapters:
+  #     - file: notebooks/cloudonly-FigS2-Chl_Copepod_compare_x1
+  #     - file: notebooks/FigS2-Chl_Copepod_compare_x1

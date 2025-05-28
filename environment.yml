@@ -29,3 +29,4 @@ dependencies:
   - pip
   - pip:
     - s3fs
+  - mystmd
