@@ -2,7 +2,7 @@ version: 1
 extends:
   - https://raw.githubusercontent.com/projectpythia-mystmd/pythia-config/main/pythia.yml
 project:
-  title: Project Pythia Cookbook Template
+  title: Ocean Biogeochemistry Cookbook
   authors:
     - name: Project Pythia Community
       url: https://projectpythia.org/
