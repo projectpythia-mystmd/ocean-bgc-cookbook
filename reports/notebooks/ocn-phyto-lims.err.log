@@ -44,8 +44,8 @@ nbclient.exceptions.CellTimeoutError: A cell timed out while it was being execut
 The message was: Cell execution timed out.
 Here is a preview of the cell contents:
 -------------------
-['fig = plt.figure(figsize=(8,13))', "colorbar_specs = {'ticks' : np.arange(0,4,1)}", '', 'ax = fig.add_subplot(4,1,2, projection=ccrs.Robinson(central_longitude=305.0))', "ax.set_title('Diat surface nutrient limitation', fontsize=12)"]
+["jetstream_url = 'https://js2.jetstream-cloud.org:8001/'", '', 's3 = s3fs.S3FileSystem(anon=True, client_kwargs=dict(endpoint_url=jetstream_url))', '', '# Generate a list of all files in CESM folder']
 ...
-['', 'fig.subplots_adjust(right=0.8)', 'cbar_ax = fig.add_axes([0.85, 0.15, 0.05, 0.7])', 'cbar = fig.colorbar(pc, cax=cbar_ax,**colorbar_specs)', "cbar.ax.set_yticklabels(['P lim', 'Fe lim', 'N lim','SiO3/C lim']);"]
+['# Open with xarray', 'ds = xr.open_mfdataset(fileset, data_vars="minimal", coords=\'minimal\', compat="override", parallel=True,', '                       drop_variables=["transport_components", "transport_regions", \'moc_components\'], decode_times=True)', '', 'ds']
 -------------------
 
